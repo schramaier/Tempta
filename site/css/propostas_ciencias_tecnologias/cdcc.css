@@ -1,0 +1,13 @@
+
+#logo {
+    /* height: 150px; */
+    width: 100px;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  #figure:hover {
+    transform: scale(1.2);
+  }

@@ -1,0 +1,34 @@
+
+#logo {
+    /* height: 150px; */
+    width: 100px;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+#propostas{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-left: 5%;
+}
+
+#propostas div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;       
+    background-color: #44489a;
+    border-radius: 10px;
+    height: 200px;
+    transition: transform 0.3s ease;
+}
+
+#propostas div:hover{
+    transform: scale(1.1);   
+    background-image: linear-gradient(to right, MediumPurple, DarkSlateBlue, Navy);
+
+}

@@ -1,0 +1,71 @@
+
+#logo {
+    /* height: 150px; */
+    width: 100px;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+#eixos{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-left: 5%;
+}
+
+#eixos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;       
+    background-color: #44489a;
+    border-radius: 10px;
+    height: 200px;
+}
+
+#CT:hover{
+    
+    background-image:url("../img/cienciasetecnologia.png");
+    background-size: 100%;
+}
+#SAUDE:hover{
+    
+    background-image:url("../img/saude.png");
+    background-size: 100%;
+}
+#LCA:hover{
+    
+    background-image:url("../img/cultura.png");
+    background-size: 100%;
+}
+#MAS:hover{
+    
+    background-image:url("../img/meioAmbiente.png");
+    background-size: 100%;
+}
+#E:hover{
+    
+    background-image:url("../img/economia.png");
+    background-size: 100%;    
+}
+#ED:hover{
+    
+    background-image:url("../img/educacao\ \(2\).png");
+    background-size: 100%;
+}
+#DC:hover{
+    
+    background-image:url("../img/direitos.png");
+    background-size: 100%;
+}
+#S:hover{
+    
+    background-image:url("../img/seguranca\ \(1\).png");
+    background-size: 100%;
+}
+
+
+
